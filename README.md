@@ -24,7 +24,7 @@ form-data
 >methods = [GET] 
 >url = http://127.0.0.1:3000/products (to read all products list) 
 >url = http://127.0.0.1:3000/products/:products_id (to read products by products_id) 
-!id is auto generate by the sistem, you can't manually input the products_id or passing some new products_id or even change the products_id this is the unique one
+!products_id is auto generate by the sistem, you can't manually input the products_id or passing some new products_id or even change the products_id this is the unique one
 
 
 - Update Products 
