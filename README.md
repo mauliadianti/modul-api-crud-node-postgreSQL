@@ -50,10 +50,10 @@ photo: (change the type from text to file, and you ready to go to upload your ph
 
 
 
-callbacks[methods]: 
-for(post, put and delete) if everything succes there will be a reply {"message" : "OK"}
-for(get) the result is what you find for, if you try to search a products by their products_id but it doesn't registered before in the database, the reply will {"error" : "No data"}
-for Wrong Token (in case you miss one number or other, there will be a reply {"error" : "Wrong Token"}
+callbacks: 
+#for(post, put and delete) if everything succes there will be a reply {"message" : "OK"}
+#for(get) the result is what you find for, if you try to search a products by their products_id but it doesn't registered before in the database, the reply will {"error" : "No data"}
+#for Wrong Token (in case you miss one number or other, there will be a reply {"error" : "Wrong Token"}
 
 
 
