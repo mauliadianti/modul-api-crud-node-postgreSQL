@@ -69,8 +69,8 @@ this welcoming server is still run with empty table, for migrating table and cre
 
 in case you want to rebuild the container and use docker: 
 ```
-- docker-compose down
-- docker-compose up --build -d
-- docker exec crud-02-server-1 npm run migrate
-- docker exec crud-02-server-1 npm run seed
+$ docker-compose down
+$ docker-compose up --build -d
+$ docker exec crud-02-server-1 npm run migrate
+$ docker exec crud-02-server-1 npm run seed
 ```
