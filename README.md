@@ -60,12 +60,15 @@ collection api postman: https://go.postman.co/workspace/coba~e54d042e-cb1d-402f-
 
 4. running docker container: 
 
-```$ curl localhost:3000``` => output :  {"message":"welcome home"}
+> ```$ curl localhost:3000``` => output :  {"message":"welcome home"}
 this welcoming server is still run with empty table, for migrating table and create first seed run this command 
-```$ docker exec crud-02-server-1 npm run migrate```
-```$ docker exec crud-02-server-1 npm run seed```
+
+> ```$ docker exec crud-02-server-1 npm run migrate```
+
+> ```$ docker exec crud-02-server-1 npm run seed```
 (if there is tabel or incase i forget to delete it, the program automatically delete it first than create a new 'products' table) 
-```$ curl localhost:3000/products``` 
+
+> ```$ curl localhost:3000/products``` 
 (for see raw data from running seed) output will: {"error":"Wrong Token"} bcs we use token authentication, to not use this, go to products.js-> make Token function return 1 and rebuild again this container or just try it in postman using the one i've deploy on heroku with this url: https://maulia-api.herokuapp.com (all the route same like in local production))
 
 in case you want to rebuild the container and use docker: 
