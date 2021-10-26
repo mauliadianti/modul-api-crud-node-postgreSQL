@@ -9,8 +9,8 @@ Guideline to use API Product
 - Insert New Product 
 >methods = [POST] 
 >url= http://127.0.0.1:3000/products_insert
->go to Body 
->form-data
+=>go to Body 
+=>form-data
 key:value 
 name : productName
 qty  : productQty
