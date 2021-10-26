@@ -11,11 +11,11 @@ Guideline to use API Product
 >url= http://127.0.0.1:3000/products_insert
 =>go to Body 
 =>form-data
-key:value 
+``key:value 
 name : productName
 qty  : productQty
 price: productPrice
-photo: (change the type from text to file, and you ready to go to upload your photo)
+photo: (change the type from text to file, and you ready to go to upload your photo)``
  
 
 - Read Product
