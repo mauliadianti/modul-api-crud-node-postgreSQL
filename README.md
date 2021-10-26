@@ -14,11 +14,11 @@ go to Body
 form-data
 ```
 
-```key:value 
+key:value 
 name : productName
 qty  : productQty
 price: productPrice
-photo: (change the type from text to file, and you ready to go to upload your photo)```
+photo: (change the type from text to file, and you ready to go to upload your photo)
  
 
 - Read Product
