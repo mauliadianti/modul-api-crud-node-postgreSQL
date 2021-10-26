@@ -17,8 +17,8 @@ form-data
 ``key:value``
 ``name : productName ``
 ``qty  : productQty ``
-price: productPrice ||
-photo: (change the type from text to file, and you ready to go to upload your photo)
+``price: productPrice ``
+``photo: (change the type from text to file, and you ready to go to upload your photo)``
 
 - Read Product
 >methods = [GET] 
